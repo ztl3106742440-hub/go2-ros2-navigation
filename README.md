@@ -13,7 +13,7 @@ Unitree Go2 第 11/12 章 2D SLAM 建图和 Nav2 实机导航基线代码包。�
 ## 一键克隆和配置
 
 ```bash
-git clone https://github.com/<your-github-user>/Go2_2DNav.git
+git clone https://github.com/ztl3106742440-hub/Go2_2DNav.git
 cd Go2_2DNav
 ./scripts/setup_all.sh
 ```
