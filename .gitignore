@@ -1,0 +1,11 @@
+build/
+install/
+log/
+.colcon/
+.ros/
+*.pyc
+__pycache__/
+*.swp
+*.swo
+.DS_Store
+ros2_ws_*.tar.gz

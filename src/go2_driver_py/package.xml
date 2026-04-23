@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>go2_driver_py</name>
+  <version>0.0.0</version>
+  <description>Go2 driver package for odom, TF and joint state publishing.</description>
+  <maintainer email="student@example.com">student</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>ament_index_python</depend>
+  <depend>geometry_msgs</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>unitree_go</depend>
+  <depend>xacro</depend>
+
+  <exec_depend>go2_description</exec_depend>
+  <exec_depend>go2_twist_bridge_py</exec_depend>
+
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
