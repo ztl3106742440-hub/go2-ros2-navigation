@@ -23,6 +23,6 @@ gh repo create ztl3106742440-hub/Go2_2DNav --public --source=. --remote=origin -
 
 ```bash
 cd /home/ztl/Go2_2DNav
-git remote add origin https://github.com/ztl3106742440-hub/Go2_2DNav.git
+git remote add origin https://github.com/ztl3106742440-hub/go2-ros2-navigation.git
 git push -u origin main
 ```

@@ -9,3 +9,12 @@ __pycache__/
 *.swo
 .DS_Store
 ros2_ws_*.tar.gz
+
+# Repository organization: generated files and local credentials
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+site/
+*.egg-info/
